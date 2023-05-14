@@ -1,0 +1,25 @@
+/*header*/
+@import"../html/header";
+
+/*css home*/
+body {
+  font-family: $tipo-voga;
+
+  main {
+    @include mobile{
+      height: 80vh;
+    }
+    .imagenes {
+      display: flex;
+      justify-content: center;
+      margin: 4%;
+
+      img {
+        width: 70%;
+      }
+    }
+  }
+}
+
+/*footer*/
+@import"../html/footer";
