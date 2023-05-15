@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   padding: 0;
   margin: 0;
@@ -7,6 +8,11 @@
 /*color voga*/
 /*font family*/
 /*mixin*/
+/*extend*/
+diseño-tipo, body header .navegacion {
+  font-size: 0.9rem;
+  letter-spacing: 1px; }
+
 /*home*/
 /*header*/
 body {
@@ -20,10 +26,44 @@ body {
         @media screen and (max-width: 400px) {
           body header .navegacion .menu h1 a img {
             max-width: 15%; } }
-      body header .navegacion .menu .botones a {
-        color: white;
-        text-decoration: none;
-        padding: 10px; }
+      body header .navegacion .menu .botones {
+        display: flex;
+        justify-content: center;
+        gap: 10px; }
+        body header .navegacion .menu .botones .boton-findus {
+          margin-right: 30px;
+          display: flex;
+          justify-content: center; }
+          body header .navegacion .menu .botones .boton-findus a {
+            color: white;
+            text-decoration: none;
+            padding: 10px; }
+          body header .navegacion .menu .botones .boton-findus .location {
+            margin-top: 8px;
+            width: 25px;
+            height: 25px; }
+        body header .navegacion .menu .botones .boton-signin {
+          padding: 10px;
+          border-radius: 30px;
+          padding-left: 30px;
+          padding-right: 30px;
+          background-color: white; }
+          body header .navegacion .menu .botones .boton-signin a {
+            color: #1a1c23;
+            text-decoration: none; }
+        body header .navegacion .menu .botones .boton-joinus {
+          background-color: #1a1c23;
+          border-color: white;
+          border-style: solid;
+          border-width: 1px;
+          padding: 10px;
+          border-radius: 30px;
+          padding-left: 30px;
+          padding-right: 30px; }
+          body header .navegacion .menu .botones .boton-joinus a {
+            color: white;
+            text-decoration: none;
+            padding: 10px; }
 
 /*css home*/
 body {
@@ -63,10 +103,44 @@ body {
         @media screen and (max-width: 400px) {
           body header .navegacion .menu h1 a img {
             max-width: 15%; } }
-      body header .navegacion .menu .botones a {
-        color: white;
-        text-decoration: none;
-        padding: 10px; }
+      body header .navegacion .menu .botones {
+        display: flex;
+        justify-content: center;
+        gap: 10px; }
+        body header .navegacion .menu .botones .boton-findus {
+          margin-right: 30px;
+          display: flex;
+          justify-content: center; }
+          body header .navegacion .menu .botones .boton-findus a {
+            color: white;
+            text-decoration: none;
+            padding: 10px; }
+          body header .navegacion .menu .botones .boton-findus .location {
+            margin-top: 8px;
+            width: 25px;
+            height: 25px; }
+        body header .navegacion .menu .botones .boton-signin {
+          padding: 10px;
+          border-radius: 30px;
+          padding-left: 30px;
+          padding-right: 30px;
+          background-color: white; }
+          body header .navegacion .menu .botones .boton-signin a {
+            color: #1a1c23;
+            text-decoration: none; }
+        body header .navegacion .menu .botones .boton-joinus {
+          background-color: #1a1c23;
+          border-color: white;
+          border-style: solid;
+          border-width: 1px;
+          padding: 10px;
+          border-radius: 30px;
+          padding-left: 30px;
+          padding-right: 30px; }
+          body header .navegacion .menu .botones .boton-joinus a {
+            color: white;
+            text-decoration: none;
+            padding: 10px; }
 
 /*css lentesopticos*/
 body {
@@ -136,10 +210,44 @@ body {
         @media screen and (max-width: 400px) {
           body header .navegacion .menu h1 a img {
             max-width: 15%; } }
-      body header .navegacion .menu .botones a {
-        color: white;
-        text-decoration: none;
-        padding: 10px; }
+      body header .navegacion .menu .botones {
+        display: flex;
+        justify-content: center;
+        gap: 10px; }
+        body header .navegacion .menu .botones .boton-findus {
+          margin-right: 30px;
+          display: flex;
+          justify-content: center; }
+          body header .navegacion .menu .botones .boton-findus a {
+            color: white;
+            text-decoration: none;
+            padding: 10px; }
+          body header .navegacion .menu .botones .boton-findus .location {
+            margin-top: 8px;
+            width: 25px;
+            height: 25px; }
+        body header .navegacion .menu .botones .boton-signin {
+          padding: 10px;
+          border-radius: 30px;
+          padding-left: 30px;
+          padding-right: 30px;
+          background-color: white; }
+          body header .navegacion .menu .botones .boton-signin a {
+            color: #1a1c23;
+            text-decoration: none; }
+        body header .navegacion .menu .botones .boton-joinus {
+          background-color: #1a1c23;
+          border-color: white;
+          border-style: solid;
+          border-width: 1px;
+          padding: 10px;
+          border-radius: 30px;
+          padding-left: 30px;
+          padding-right: 30px; }
+          body header .navegacion .menu .botones .boton-joinus a {
+            color: white;
+            text-decoration: none;
+            padding: 10px; }
 
 /*css lentesdesol*/
 /*banner*/
@@ -209,10 +317,44 @@ body {
         @media screen and (max-width: 400px) {
           body header .navegacion .menu h1 a img {
             max-width: 15%; } }
-      body header .navegacion .menu .botones a {
-        color: white;
-        text-decoration: none;
-        padding: 10px; }
+      body header .navegacion .menu .botones {
+        display: flex;
+        justify-content: center;
+        gap: 10px; }
+        body header .navegacion .menu .botones .boton-findus {
+          margin-right: 30px;
+          display: flex;
+          justify-content: center; }
+          body header .navegacion .menu .botones .boton-findus a {
+            color: white;
+            text-decoration: none;
+            padding: 10px; }
+          body header .navegacion .menu .botones .boton-findus .location {
+            margin-top: 8px;
+            width: 25px;
+            height: 25px; }
+        body header .navegacion .menu .botones .boton-signin {
+          padding: 10px;
+          border-radius: 30px;
+          padding-left: 30px;
+          padding-right: 30px;
+          background-color: white; }
+          body header .navegacion .menu .botones .boton-signin a {
+            color: #1a1c23;
+            text-decoration: none; }
+        body header .navegacion .menu .botones .boton-joinus {
+          background-color: #1a1c23;
+          border-color: white;
+          border-style: solid;
+          border-width: 1px;
+          padding: 10px;
+          border-radius: 30px;
+          padding-left: 30px;
+          padding-right: 30px; }
+          body header .navegacion .menu .botones .boton-joinus a {
+            color: white;
+            text-decoration: none;
+            padding: 10px; }
 
 /*css join*/
 body {

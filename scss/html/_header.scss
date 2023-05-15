@@ -4,6 +4,7 @@ body {
     header {
         .navegacion {
             background-color: $color-voga;
+            @extend diseño-tipo;
 
             .menu {
                 padding: 2%;
@@ -20,13 +21,64 @@ body {
                 }
 
                 .botones {
+                    display: flex;
+                    justify-content: center;
+                    gap: 10px;
+                    .boton-findus{
+                        margin-right: 30px;
+                        display: flex;
+                        justify-content: center;
+                        a {
+                            color: rgb(255, 255, 255);
+                            text-decoration: none;
+                            padding: 10px;
+                            
+                    }
+                        .location{
+                            margin-top: 8px;
+                            width: 25px;
+                            height: 25px;
+    
+                        }
+                            
+                            
+                           
+                        }
+                        .boton-signin{
+                            padding: 10px;
+                                border-radius: 30px;
+                                padding-left: 30px;
+                                padding-right: 30px;
+                                
+                                background-color: white;
+                            a {
+                                color: $color-voga;
+                                text-decoration: none;
+                                
+                        }
+                    }
+
+                 .boton-joinus{
+                    background-color: $color-voga;
+                        border-color: white;
+                       border-style: solid;
+                       border-width: 1px;
+                       padding: 10px;
+                                border-radius: 30px;
+                                padding-left: 30px;
+                                padding-right: 30px;
+                       
                     a {
                         color: rgb(255, 255, 255);
                         text-decoration: none;
                         padding: 10px;
+                        
+                }
+
+                 }
                     }
+                    
                 }
             }
         }
     }
-}
