@@ -4,18 +4,42 @@
 /*css home*/
 body {
   font-family: $tipo-voga;
+  background-color: $color-voga;
 
   main {
     @include mobile{
       height: 80vh;
     }
-    .imagenes {
-      display: flex;
-      justify-content: center;
-      margin: 4%;
+    .banner-opticos{
+      @extend formato-banners;
+      img {
+        width:100%;
+      }
+
+    }
+    .banner-sol{
+      @extend formato-banners;
+      img {
+        width:100%;
+      }
+
+    }
+    .banner-beneficios {
+      @extend formato-banners;
+      a{
+        margin-left: 10%;
+        position: absolute;
+        font-size: 8rem;
+        color: $color-font;
+        text-decoration: none;
+        font-weight: 900;
+        top: 460%;
+        left: 50%;
+
+      }
 
       img {
-        width: 70%;
+        width:100%;
       }
     }
   }

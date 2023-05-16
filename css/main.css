@@ -7,18 +7,25 @@
 /*variables*/
 /*color voga*/
 /*font family*/
+/*color font*/
 /*mixin*/
 /*extend*/
 diseño-tipo, body header .navegacion {
   font-size: 0.9rem;
   letter-spacing: 1px; }
 
+formato-banners, body main .banner-opticos, body main .banner-sol, body main .banner-beneficios {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 30%; }
+
 /*home*/
 /*header*/
 body {
-  font-family: "Krub", sans-serif; }
+  font-family: "Kumbh Sans", sans-serif; }
   body header .navegacion {
-    background-color: #1a1c23; }
+    background-color: #FFC700; }
     body header .navegacion .menu {
       padding: 2%; }
       body header .navegacion .menu h1 a img {
@@ -49,10 +56,10 @@ body {
           padding-right: 30px;
           background-color: white; }
           body header .navegacion .menu .botones .boton-signin a {
-            color: #1a1c23;
+            color: #FFC700;
             text-decoration: none; }
         body header .navegacion .menu .botones .boton-joinus {
-          background-color: #1a1c23;
+          background-color: #FFC700;
           border-color: white;
           border-style: solid;
           border-width: 1px;
@@ -64,25 +71,42 @@ body {
             color: white;
             text-decoration: none;
             padding: 10px; }
+  body header .voga .logo a {
+    display: flex;
+    justify-content: center; }
+    body header .voga .logo a img {
+      display: flex;
+      justify-content: center;
+      width: 30%; }
 
 /*css home*/
 body {
-  font-family: "Krub", sans-serif; }
+  font-family: "Kumbh Sans", sans-serif;
+  background-color: #FFC700; }
   @media screen and (max-width: 400px) {
     body main {
       height: 80vh; } }
-  body main .imagenes {
-    display: flex;
-    justify-content: center;
-    margin: 4%; }
-    body main .imagenes img {
-      width: 70%; }
+  body main .banner-opticos img {
+    width: 100%; }
+  body main .banner-sol img {
+    width: 100%; }
+  body main .banner-beneficios a {
+    margin-left: 10%;
+    position: absolute;
+    font-size: 8rem;
+    color: #F5F5F5;
+    text-decoration: none;
+    font-weight: 900;
+    top: 460%;
+    left: 50%; }
+  body main .banner-beneficios img {
+    width: 100%; }
 
 /*footer*/
 body {
-  font-family: "Krub", sans-serif; }
+  font-family: "Kumbh Sans", sans-serif; }
   body .social-media {
-    background-color: #1a1c23;
+    background-color: #FFC700;
     text-align: center;
     height: 10vh; }
     body .social-media img {
@@ -93,9 +117,9 @@ body {
 /*lentes opticos*/
 /*header*/
 body {
-  font-family: "Krub", sans-serif; }
+  font-family: "Kumbh Sans", sans-serif; }
   body header .navegacion {
-    background-color: #1a1c23; }
+    background-color: #FFC700; }
     body header .navegacion .menu {
       padding: 2%; }
       body header .navegacion .menu h1 a img {
@@ -126,10 +150,10 @@ body {
           padding-right: 30px;
           background-color: white; }
           body header .navegacion .menu .botones .boton-signin a {
-            color: #1a1c23;
+            color: #FFC700;
             text-decoration: none; }
         body header .navegacion .menu .botones .boton-joinus {
-          background-color: #1a1c23;
+          background-color: #FFC700;
           border-color: white;
           border-style: solid;
           border-width: 1px;
@@ -141,10 +165,17 @@ body {
             color: white;
             text-decoration: none;
             padding: 10px; }
+  body header .voga .logo a {
+    display: flex;
+    justify-content: center; }
+    body header .voga .logo a img {
+      display: flex;
+      justify-content: center;
+      width: 30%; }
 
 /*css lentesopticos*/
 body {
-  font-family: "Krub", sans-serif;
+  font-family: "Kumbh Sans", sans-serif;
   /*banner*/
   /*productos*/ }
   body .imagenes {
@@ -187,9 +218,9 @@ body {
 
 /*footer*/
 body {
-  font-family: "Krub", sans-serif; }
+  font-family: "Kumbh Sans", sans-serif; }
   body .social-media {
-    background-color: #1a1c23;
+    background-color: #FFC700;
     text-align: center;
     height: 10vh; }
     body .social-media img {
@@ -200,9 +231,9 @@ body {
 /*lentes de sol*/
 /*header*/
 body {
-  font-family: "Krub", sans-serif; }
+  font-family: "Kumbh Sans", sans-serif; }
   body header .navegacion {
-    background-color: #1a1c23; }
+    background-color: #FFC700; }
     body header .navegacion .menu {
       padding: 2%; }
       body header .navegacion .menu h1 a img {
@@ -233,10 +264,10 @@ body {
           padding-right: 30px;
           background-color: white; }
           body header .navegacion .menu .botones .boton-signin a {
-            color: #1a1c23;
+            color: #FFC700;
             text-decoration: none; }
         body header .navegacion .menu .botones .boton-joinus {
-          background-color: #1a1c23;
+          background-color: #FFC700;
           border-color: white;
           border-style: solid;
           border-width: 1px;
@@ -248,11 +279,18 @@ body {
             color: white;
             text-decoration: none;
             padding: 10px; }
+  body header .voga .logo a {
+    display: flex;
+    justify-content: center; }
+    body header .voga .logo a img {
+      display: flex;
+      justify-content: center;
+      width: 30%; }
 
 /*css lentesdesol*/
 /*banner*/
 body {
-  font-family: "Krub", sans-serif;
+  font-family: "Kumbh Sans", sans-serif;
   /*productos*/ }
   body .imagenes {
     display: flex;
@@ -294,9 +332,9 @@ body {
 
 /*footer*/
 body {
-  font-family: "Krub", sans-serif; }
+  font-family: "Kumbh Sans", sans-serif; }
   body .social-media {
-    background-color: #1a1c23;
+    background-color: #FFC700;
     text-align: center;
     height: 10vh; }
     body .social-media img {
@@ -307,9 +345,9 @@ body {
 /*join*/
 /*header*/
 body {
-  font-family: "Krub", sans-serif; }
+  font-family: "Kumbh Sans", sans-serif; }
   body header .navegacion {
-    background-color: #1a1c23; }
+    background-color: #FFC700; }
     body header .navegacion .menu {
       padding: 2%; }
       body header .navegacion .menu h1 a img {
@@ -340,10 +378,10 @@ body {
           padding-right: 30px;
           background-color: white; }
           body header .navegacion .menu .botones .boton-signin a {
-            color: #1a1c23;
+            color: #FFC700;
             text-decoration: none; }
         body header .navegacion .menu .botones .boton-joinus {
-          background-color: #1a1c23;
+          background-color: #FFC700;
           border-color: white;
           border-style: solid;
           border-width: 1px;
@@ -355,10 +393,17 @@ body {
             color: white;
             text-decoration: none;
             padding: 10px; }
+  body header .voga .logo a {
+    display: flex;
+    justify-content: center; }
+    body header .voga .logo a img {
+      display: flex;
+      justify-content: center;
+      width: 30%; }
 
 /*css join*/
 body {
-  font-family: "Krub", sans-serif; }
+  font-family: "Kumbh Sans", sans-serif; }
   body .crear-cuenta {
     display: grid;
     justify-content: center; }
@@ -393,9 +438,9 @@ body {
 
 /*footer*/
 body {
-  font-family: "Krub", sans-serif; }
+  font-family: "Kumbh Sans", sans-serif; }
   body .social-media {
-    background-color: #1a1c23;
+    background-color: #FFC700;
     text-align: center;
     height: 10vh; }
     body .social-media img {
