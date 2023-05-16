@@ -30,7 +30,7 @@ body {
                         display: flex;
                         justify-content: center;
                         a {
-                            color: rgb(255, 255, 255);
+                            color: $color-font;
                             text-decoration: none;
                             padding: 10px;
                             
@@ -48,7 +48,7 @@ body {
                         .boton-signin{
                             @extend formato-boton;
                                 
-                                background-color: rgb(201, 56, 56);
+                                background-color: $color-font;
                             a {
                                 color: $color-voga;
                                 text-decoration: none;
@@ -58,13 +58,13 @@ body {
 
                  .boton-joinus{
                     background-color: $color-voga;
-                        border-color: white;
+                        border-color: $color-font;
                        border-style: solid;
                        border-width: 1px;
                        @extend formato-boton;
                        
                     a {
-                        color: rgb(255, 255, 255);
+                        color: $color-font;
                         text-decoration: none;
                         padding: 10px;
                         
