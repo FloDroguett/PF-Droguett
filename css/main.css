@@ -26,6 +26,25 @@ formato-boton, body header .navegacion .menu .botones .boton-signin, body header
   padding-left: 30px;
   padding-right: 30px; }
 
+/*inicio*/
+/*inicio*/
+.inicio {
+  display: flex;
+  justify-content: center;
+  background-color: #F5F5F5; }
+  .inicio main .voga-logo {
+    position: absolute;
+    top: 135%;
+    left: 30%; }
+    .inicio main .voga-logo h1 img {
+      width: 100%;
+      position: sticky; }
+  .inicio main a {
+    position: absolute;
+    color: black; }
+  .inicio .imagen-fondo img {
+    width: 100%; }
+
 /*home*/
 /*header*/
 body {
@@ -271,43 +290,44 @@ body {
 
 /*css lentesdesol*/
 /*banner*/
-body {
+.fondo-productos {
   font-family: "Kumbh Sans", sans-serif;
+  background-color: #F5F5F5;
   /*productos*/ }
-  body .imagenes {
+  .fondo-productos .imagenes {
     display: flex;
     justify-content: center;
     margin: 4%;
     margin: auto;
     min-width: 80px; }
-    body .imagenes img {
+    .fondo-productos .imagenes img {
       width: 70%; }
-  body .productos {
+  .fondo-productos .productos {
     display: flex;
     flex-direction: column; }
     @media screen and (max-width: 400px) {
-      body .productos {
+      .fondo-productos .productos {
         margin: auto;
         max-width: 80%; } }
-    body .productos div {
+    .fondo-productos .productos div {
       display: flex;
       justify-content: center;
       margin: 20px;
       flex-wrap: wrap; }
       @media screen and (max-width: 400px) {
-        body .productos div {
+        .fondo-productos .productos div {
           overflow: scroll;
           padding: 3px;
           margin: 10px;
           flex-wrap: nowrap; } }
-      body .productos div img {
+      .fondo-productos .productos div img {
         height: 10%;
         width: 10%; }
         @media screen and (max-width: 400px) {
-          body .productos div img {
+          .fondo-productos .productos div img {
             margin: auto;
             min-width: 30%; } }
-      body .productos div .sombra {
+      .fondo-productos .productos div .sombra {
         margin: 30px;
         box-shadow: 0px 8px 8px #1a1c2335;
         border-radius: 200px; }
@@ -377,38 +397,71 @@ body {
 
 /*css join*/
 body {
-  font-family: "Kumbh Sans", sans-serif; }
+  font-family: "Kumbh Sans", sans-serif;
+  color: #F5F5F5; }
   body .crear-cuenta {
-    display: grid;
-    justify-content: center; }
+    margin: 20%;
+    background-color: black;
+    display: flex;
+    justify-items: center; }
     body .crear-cuenta .beneficios-voga {
       text-align: center;
       margin: 20px;
       padding: 10px; }
       body .crear-cuenta .beneficios-voga h2 {
-        padding-bottom: 50px; }
+        padding-bottom: 50px;
+        font-weight: 900;
+        letter-spacing: 3px; }
+      body .crear-cuenta .beneficios-voga h3 {
+        font-size: 1em;
+        font-weight: 700; }
     body .crear-cuenta .completar {
+      display: block;
+      justify-content: center;
       height: 958px;
       width: 888px;
-      background-color: aliceblue;
       border-radius: 52px; }
       body .crear-cuenta .completar p {
-        padding-left: 200px;
+        text-align: center;
         padding-top: 200px; }
-      body .crear-cuenta .completar h3 {
+      body .crear-cuenta .completar h4 {
         text-align: center;
         padding: 20px; }
       body .crear-cuenta .completar input {
-        padding-right: 30px;
-        display: block;
         margin: 20px;
-        padding-left: 10px; }
-      body .crear-cuenta .completar div {
-        display: grid;
-        justify-content: center; }
+        padding-left: 20px;
+        background-color: #FFC700;
+        border-radius: 50px;
+        color: #F5F5F5;
+        border: 1px solid #F5F5F5;
+        outline: 0; }
+      body .crear-cuenta .completar ::placeholder {
+        color: white;
+        font-weight: 500;
+        letter-spacing: 1px;
+        font-size: 0.7em; }
+      body .crear-cuenta .completar .info-personal {
+        padding-bottom: 10%;
+        background-color: aqua;
+        gap: 10%; }
       body .crear-cuenta .completar .boton {
-        display: grid;
-        justify-content: center; }
+        color: #FFC700;
+        background-color: #F5F5F5;
+        border-radius: 100px;
+        padding: 5px 40px 5px 40px;
+        border: 0; }
+  body .logoFooter {
+    display: flex;
+    justify-content: center;
+    background-color: aqua; }
+    body .logoFooter h1 a {
+      display: flex;
+      justify-content: center; }
+      body .logoFooter h1 a img {
+        width: 28%; }
+        @media screen and (max-width: 400px) {
+          body .logoFooter h1 a img {
+            max-width: 15%; } }
 
 /*footer*/
 body {

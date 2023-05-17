@@ -6,11 +6,13 @@
 body{
     
     font-family: $tipo-voga;
+    color:$color-font;
 
 .crear-cuenta {
-
-    display: grid;
-    justify-content: center;
+    margin: 20%;
+    background-color: black;
+    display: flex;
+    justify-items: center;
 
     .beneficios-voga {
 
@@ -20,24 +22,31 @@ body{
 
         h2 {
             padding-bottom: 50px;
+            font-weight: 900;
+            letter-spacing: 3px;
+        }
+
+        h3{
+            font-size: 1em;
+            font-weight: 700;
         }
 
     }
 
     .completar {
-
+        display: block;
+        justify-content: center;
         height: 958px;
         width: 888px;
-        background-color: aliceblue;
         border-radius: 52px;
 
         p {
-            padding-left: 200px;
+            text-align: center;
             padding-top: 200px;
 
         }
 
-        h3 {
+        h4 {
             text-align: center;
             padding: 20px;
 
@@ -45,24 +54,57 @@ body{
 
         input {
 
-            padding-right: 30px;
-            display: block;
             margin: 20px;
-            padding-left: 10px;
+            padding-left: 20px;
+            background-color: $color-voga;
+            border-radius: 50px;
+            color: $color-font;
+            border: 1px solid $color-font;
+            outline: 0;
+
+            
+        }
+        ::placeholder{
+            color: white;
+            font-weight: 500;
+            letter-spacing: 1px;
+            font-size: 0.7em;
+
         }
 
-        div {
-
-            display: grid;
-            justify-content: center;
+        .info-personal {
+           padding-bottom: 10%;
+           background-color: aqua;
+           gap: 10%;
+            
         }
 
         .boton {
-
-            display: grid;
-            justify-content: center;
+            color: $color-voga;
+            background-color: $color-font;
+            border-radius: 100px;
+            padding: 5px 40px 5px 40px;
+            border: 0;
         }
     }
+     
+}
+.logoFooter{
+    display: flex;
+    justify-content: center;
+    background-color: aqua;
+   h1 {
+        a {
+          display: flex;
+           justify-content: center;
+            img {
+            width: 28%;
+            @include mobile{
+                max-width:15%;
+            }
+        }
+    }
+}
 }
 }
 /*footer*/

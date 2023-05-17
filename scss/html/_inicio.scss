@@ -1,0 +1,32 @@
+
+/*inicio*/
+.inicio{
+    display: flex;
+    justify-content: center;
+    background-color: $color-font;
+
+    main{
+        .voga-logo{
+            position: absolute;
+             top: 135%;
+               left: 30%;
+            h1{
+                img{
+                    width: 100%;
+                     position: sticky;
+
+                }
+            }
+        }
+        a{
+            position: absolute;
+            color: black;
+        }
+    }
+   .imagen-fondo{
+    img{
+        width: 100%;
+    }
+
+   }
+}
