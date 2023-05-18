@@ -496,8 +496,7 @@ body {
   display: flex;
   justify-content: center; }
   .form .crear-cuenta {
-    margin: auto;
-    background-color: black;
+    margin: 10%;
     display: inline-block;
     justify-items: center; }
     .form .crear-cuenta .beneficios-voga {
@@ -514,39 +513,48 @@ body {
     .form .crear-cuenta .completar {
       display: flex;
       justify-content: center;
-      margin: auto;
-      background-color: #f3008e; }
-      .form .crear-cuenta .completar p {
-        text-align: center;
-        padding-top: 20px; }
+      padding: auto; }
       .form .crear-cuenta .completar h4 {
         text-align: center;
         padding: 20px; }
       .form .crear-cuenta .completar input {
-        margin: 20px;
-        padding-left: 20px;
+        margin: 2%;
+        padding-left: 5%;
+        padding-right: 150px;
         background-color: #FFC700;
         border-radius: 50px;
         color: #f8f9fa;
-        border: 1px solid #f8f9fa;
+        border: 2px solid #f8f9fa;
         outline: 0; }
       .form .crear-cuenta .completar ::placeholder {
+        padding-left: 5px;
         color: white;
         font-weight: 500;
         letter-spacing: 1px;
         font-size: 0.7em; }
       .form .crear-cuenta .completar .info {
         text-align: center;
-        width: 20%;
-        background-color: aqua; }
-      .form .crear-cuenta .completar .boton {
-        color: #FFC700;
-        background-color: #f8f9fa;
-        border-radius: 100px;
-        padding: 5px 40px 5px 40px;
-        border: 0; }
-  .form .logoFooter h1 a {
+        padding: auto; }
+        .form .crear-cuenta .completar .info p {
+          font-size: 1rem;
+          text-align: center;
+          padding-top: 20px;
+          font-weight: 500; }
+        .form .crear-cuenta .completar .info .btn-registrar {
+          margin-top: 10%; }
+          .form .crear-cuenta .completar .info .btn-registrar .boton {
+            color: #FFC700;
+            background-color: #f8f9fa;
+            border-radius: 100px;
+            padding: 5px 40px 5px 40px;
+            border: 0; }
+  .form .logoFooter {
+    padding-top: 20%;
+    padding-left: 3%;
     display: flex;
     justify-content: center; }
-    .form .logoFooter h1 a img {
-      width: 28%; }
+    .form .logoFooter h1 a {
+      display: flex;
+      justify-content: center; }
+      .form .logoFooter h1 a img {
+        width: 300px; }
