@@ -3,15 +3,17 @@
 
 /*css join*/
 
-body{
+.form{
     
     font-family: $tipo-voga;
     color:$color-font;
+    display: flex;
+    justify-content: center;
 
 .crear-cuenta {
-    margin: 20%;
+    margin: auto;
     background-color: black;
-    display: flex;
+    display: inline-block;
     justify-items: center;
 
     .beneficios-voga {
@@ -34,15 +36,14 @@ body{
     }
 
     .completar {
-        display: block;
+        display: flex;
         justify-content: center;
-        height: 958px;
-        width: 888px;
-        border-radius: 52px;
+        margin: auto;
+        background-color: rgb(243, 0, 142);
 
         p {
             text-align: center;
-            padding-top: 200px;
+            padding-top: 20px;
 
         }
 
@@ -53,7 +54,6 @@ body{
         }
 
         input {
-
             margin: 20px;
             padding-left: 20px;
             background-color: $color-voga;
@@ -72,40 +72,36 @@ body{
 
         }
 
-        .info-personal {
-           padding-bottom: 10%;
-           background-color: aqua;
-           gap: 10%;
+        .info {
+            text-align: center;
+            width: 20%;
+            background-color: aqua;
             
         }
-
-        .boton {
+        
+            
+           .boton {
             color: $color-voga;
             background-color: $color-font;
             border-radius: 100px;
             padding: 5px 40px 5px 40px;
             border: 0;
         }
+    
+
     }
      
 }
 .logoFooter{
-    display: flex;
-    justify-content: center;
-    background-color: aqua;
    h1 {
         a {
           display: flex;
            justify-content: center;
             img {
             width: 28%;
-            @include mobile{
-                max-width:15%;
-            }
+            
         }
     }
 }
 }
 }
-/*footer*/
-@import"../html/footer";
