@@ -18,6 +18,13 @@
         width: 200px;
         text-align: center;
         font-size: 1.5rem;
+
+        @include mobile {
+
+            margin: auto;
+            max-width: 20%;
+            font-size: 0.5rem;
+        }
     }
 
 
@@ -35,6 +42,7 @@
 
             margin: auto;
             max-width: 80%;
+            padding-right: 8%;
         }
 
         div {
@@ -44,11 +52,12 @@
             flex-wrap: wrap;
 
             @include mobile {
-
                 overflow: scroll;
-                padding: 3px;
-                margin: 10px;
-                flex-wrap: nowrap;
+                display: grid;
+                gap:10%;
+                padding: 0;
+                height: 100%;
+                width: 100%;
 
             }
 
@@ -57,8 +66,9 @@
                 width: 10%;
 
                 @include mobile {
-                    margin: auto;
-                    min-width: 30%;
+                    height: 150px;
+                    width: 150px;
+                    
                 }
             }
 

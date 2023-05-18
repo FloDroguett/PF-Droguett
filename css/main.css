@@ -94,6 +94,9 @@ formato-boton, .header-2 header .navegacion .menu .botones .boton-signin, .heade
       justify-content: center;
       margin-top: 5%;
       margin-left: 20%; }
+      @media screen and (max-width: 600px) {
+        .fondo .sticky .btn-1 {
+          margin-top: 60%; } }
       .fondo .sticky .btn-1 .boton-login {
         color: #FFC700;
         text-decoration: none;
@@ -102,6 +105,9 @@ formato-boton, .header-2 header .navegacion .menu .botones .boton-signin, .heade
         background-color: #f8f9fa;
         border-radius: 70px;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); }
+        @media screen and (max-width: 600px) {
+          .fondo .sticky .btn-1 .boton-login {
+            font-size: 2rem; } }
     .fondo .sticky .btn-2 {
       display: flex;
       justify-content: center;
@@ -115,6 +121,9 @@ formato-boton, .header-2 header .navegacion .menu .botones .boton-signin, .heade
         background-color: #FFC700;
         border-radius: 70px;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); }
+        @media screen and (max-width: 600px) {
+          .fondo .sticky .btn-2 .boton-join {
+            font-size: 2rem; } }
     .fondo .sticky .logo {
       width: 100vh;
       height: 100vh;
@@ -127,6 +136,12 @@ formato-boton, .header-2 header .navegacion .menu .botones .boton-signin, .heade
       background-size: 90%;
       background-position: center center;
       background-repeat: no-repeat; }
+      @media screen and (max-width: 600px) {
+        .fondo .sticky .logo {
+          width: 50vh;
+          height: 50vh;
+          top: 50%;
+          right: 10%; } }
   .fondo a {
     text-decoration: none; }
     .fondo a h1 {
@@ -137,6 +152,9 @@ formato-boton, .header-2 header .navegacion .menu .botones .boton-signin, .heade
       justify-content: center;
       font-size: 7rem;
       color: aliceblue; }
+      @media screen and (max-width: 600px) {
+        .fondo a h1 {
+          font-size: 5rem; } }
 
 /*home*/
 /*header*/
@@ -148,7 +166,7 @@ body {
       padding: 2%; }
       body header .navegacion .menu h1 a img {
         width: 28%; }
-        @media screen and (max-width: 400px) {
+        @media screen and (max-width: 600px) {
           body header .navegacion .menu h1 a img {
             max-width: 15%; } }
       body header .navegacion .menu .botones {
@@ -193,7 +211,7 @@ body {
 body {
   font-family: "Kumbh Sans", sans-serif;
   background-color: #FFC700; }
-  @media screen and (max-width: 400px) {
+  @media screen and (max-width: 600px) {
     body main {
       height: 80vh; } }
   body main .banner-opticos img {
@@ -288,32 +306,40 @@ body {
     width: 200px;
     text-align: center;
     font-size: 1.5rem; }
+    @media screen and (max-width: 600px) {
+      .header-2 p {
+        margin: auto;
+        max-width: 20%;
+        font-size: 0.5rem; } }
   .header-2 .productos {
     display: flex;
     flex-direction: column;
     margin-bottom: 10%; }
-    @media screen and (max-width: 400px) {
+    @media screen and (max-width: 600px) {
       .header-2 .productos {
         margin: auto;
-        max-width: 80%; } }
+        max-width: 80%;
+        padding-right: 8%; } }
     .header-2 .productos div {
       display: flex;
       justify-content: center;
       margin: 20px;
       flex-wrap: wrap; }
-      @media screen and (max-width: 400px) {
+      @media screen and (max-width: 600px) {
         .header-2 .productos div {
           overflow: scroll;
-          padding: 3px;
-          margin: 10px;
-          flex-wrap: nowrap; } }
+          display: grid;
+          gap: 10%;
+          padding: 0;
+          height: 100%;
+          width: 100%; } }
       .header-2 .productos div img {
         height: 10%;
         width: 10%; }
-        @media screen and (max-width: 400px) {
+        @media screen and (max-width: 600px) {
           .header-2 .productos div img {
-            margin: auto;
-            min-width: 30%; } }
+            height: 150px;
+            width: 150px; } }
       .header-2 .productos div .sombra {
         margin: 30px;
         box-shadow: 0px 8px 8px #1a1c2335;
@@ -395,32 +421,40 @@ body {
     width: 200px;
     text-align: center;
     font-size: 1.5rem; }
+    @media screen and (max-width: 600px) {
+      .header-2 p {
+        margin: auto;
+        max-width: 20%;
+        font-size: 0.5rem; } }
   .header-2 .productos {
     display: flex;
     flex-direction: column;
     margin-bottom: 10%; }
-    @media screen and (max-width: 400px) {
+    @media screen and (max-width: 600px) {
       .header-2 .productos {
         margin: auto;
-        max-width: 80%; } }
+        max-width: 80%;
+        padding-right: 8%; } }
     .header-2 .productos div {
       display: flex;
       justify-content: center;
       margin: 20px;
       flex-wrap: wrap; }
-      @media screen and (max-width: 400px) {
+      @media screen and (max-width: 600px) {
         .header-2 .productos div {
           overflow: scroll;
-          padding: 3px;
-          margin: 10px;
-          flex-wrap: nowrap; } }
+          display: grid;
+          gap: 10%;
+          padding: 0;
+          height: 100%;
+          width: 100%; } }
       .header-2 .productos div img {
         height: 10%;
         width: 10%; }
-        @media screen and (max-width: 400px) {
+        @media screen and (max-width: 600px) {
           .header-2 .productos div img {
-            margin: auto;
-            min-width: 30%; } }
+            height: 150px;
+            width: 150px; } }
       .header-2 .productos div .sombra {
         margin: 30px;
         box-shadow: 0px 8px 8px #1a1c2335;
@@ -439,56 +473,6 @@ body {
       margin: 20px; }
 
 /*join*/
-/*header*/
-body {
-  font-family: "Kumbh Sans", sans-serif; }
-  body header .navegacion {
-    background-color: #FFC700; }
-    body header .navegacion .menu {
-      padding: 2%; }
-      body header .navegacion .menu h1 a img {
-        width: 28%; }
-        @media screen and (max-width: 400px) {
-          body header .navegacion .menu h1 a img {
-            max-width: 15%; } }
-      body header .navegacion .menu .botones {
-        display: flex;
-        justify-content: center;
-        gap: 10px; }
-        body header .navegacion .menu .botones .boton-findus {
-          margin-right: 30px;
-          display: flex;
-          justify-content: center; }
-          body header .navegacion .menu .botones .boton-findus a {
-            color: #f8f9fa;
-            text-decoration: none;
-            padding: 10px; }
-          body header .navegacion .menu .botones .boton-findus .location {
-            margin-top: 8px;
-            width: 25px;
-            height: 25px; }
-        body header .navegacion .menu .botones .boton-signin {
-          background-color: #f8f9fa; }
-          body header .navegacion .menu .botones .boton-signin a {
-            color: #FFC700;
-            text-decoration: none; }
-        body header .navegacion .menu .botones .boton-joinus {
-          background-color: #FFC700;
-          border-color: #f8f9fa;
-          border-style: solid;
-          border-width: 1px; }
-          body header .navegacion .menu .botones .boton-joinus a {
-            color: #f8f9fa;
-            text-decoration: none;
-            padding: 10px; }
-  body header .voga .logo a {
-    display: flex;
-    justify-content: center; }
-    body header .voga .logo a img {
-      display: flex;
-      justify-content: center;
-      width: 30%; }
-
 /*css join*/
 .form {
   font-family: "Kumbh Sans", sans-serif;
@@ -558,3 +542,68 @@ body {
       justify-content: center; }
       .form .logoFooter h1 a img {
         width: 300px; }
+
+/*login*/
+.form-login {
+  font-family: "Kumbh Sans", sans-serif;
+  color: #f8f9fa;
+  display: flex;
+  justify-content: center; }
+  .form-login .crear-cuenta {
+    margin: 10%;
+    display: inline-block;
+    justify-items: center; }
+    .form-login .crear-cuenta .beneficios-voga {
+      text-align: center;
+      margin: 20px;
+      padding: 10px; }
+      .form-login .crear-cuenta .beneficios-voga h2 {
+        padding-bottom: 50px;
+        font-weight: 900;
+        letter-spacing: 3px; }
+    .form-login .crear-cuenta .completar {
+      display: flex;
+      justify-content: center;
+      padding: auto; }
+    .form-login .crear-cuenta .input-login {
+      margin: 2%;
+      padding-left: 5%;
+      padding-right: 150px;
+      background-color: #f8f9fa;
+      border-radius: 50px;
+      color: #f8f9fa;
+      border: 2px solid #FFC700;
+      outline: 0; }
+    .form-login .crear-cuenta ::placeholder {
+      padding-left: 5px;
+      color: #FFC700;
+      font-weight: 500;
+      letter-spacing: 1px;
+      font-size: 0.7em; }
+    .form-login .crear-cuenta .info-login {
+      text-align: center;
+      padding: auto; }
+      .form-login .crear-cuenta .info-login p {
+        font-size: 1rem;
+        text-align: center;
+        padding-top: 20px;
+        font-weight: 500; }
+      .form-login .crear-cuenta .info-login .btn-entrar {
+        margin-top: 10%; }
+        .form-login .crear-cuenta .info-login .btn-entrar .boton {
+          color: #f8f9fa;
+          background-color: #FFC700;
+          border-radius: 100px;
+          padding: 5px 40px 5px 40px;
+          border: 2px solid #f8f9fa; }
+
+.logoFooter {
+  padding-top: 20%;
+  padding-left: 3%;
+  display: flex;
+  justify-content: center; }
+  .logoFooter h1 a {
+    display: flex;
+    justify-content: center; }
+    .logoFooter h1 a img {
+      width: 300px; }

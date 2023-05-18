@@ -1,7 +1,4 @@
-
-/*css join*/
-
-.form{
+.form-login{
     
     font-family: $tipo-voga;
     color:$color-font;
@@ -25,10 +22,7 @@
             letter-spacing: 3px;
         }
 
-        h3{
-            font-size: 1em;
-            font-weight: 700;
-        }
+        
 
     }
 
@@ -39,20 +33,16 @@
 
         
 
-        h4 {
-            text-align: center;
-            padding: 20px;
+                }
 
-        }
-
-        input {
+        .input-login {
             margin: 2%;
             padding-left: 5%;
             padding-right: 150px;
-            background-color: $color-voga;
+            background-color: $color-font;
             border-radius: 50px;
             color: $color-font;
-            border: 2px solid $color-font;
+            border: 2px solid $color-voga;
             outline: 0;
             
 
@@ -60,14 +50,14 @@
         }
         ::placeholder{
             padding-left: 5px;
-            color: white;
+            color: $color-voga;
             font-weight: 500;
             letter-spacing: 1px;
             font-size: 0.7em;
 
         }
 
-        .info {
+        .info-login {
             text-align: center;
             padding: auto;
             p {
@@ -77,15 +67,16 @@
                 font-weight: 500;
     
             }
-            .btn-registrar{
+            .btn-entrar{
                 margin-top: 10%;
                
             .boton {
-                color: $color-voga;
-                background-color: $color-font;
+                color: $color-font;
+                background-color: $color-voga;
                 border-radius: 100px;
                 padding: 5px 40px 5px 40px;
-                border: 0;
+                
+                border: 2px solid $color-font;
                
             }
         }
@@ -115,6 +106,5 @@
             
         }
     }
-}
 }
 }
