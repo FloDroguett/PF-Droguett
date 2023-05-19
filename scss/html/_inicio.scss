@@ -4,15 +4,7 @@
 
 
     .fondo{
-           width: 100%;
-          height: 100%;
-           position: sticky;
-           top: 0;
-
-         background-image: url(/img/fondo/img_fondo.png);
-         background-repeat: no-repeat;
-          background-position: bottom 95% center;
-         background-size: cover;
+          
          
          .sticky{
             position: sticky;
@@ -20,7 +12,7 @@
             padding: 10vh;
 
             
-        .btn-1{
+         .btn-1{
                  display: flex;
                  justify-content: center;
                  margin-top: 5%;
@@ -68,17 +60,6 @@
         }
         
         .logo{
-            width: 100vh;
-            height: 100vh;
-            top: 5px;
-            bottom: 5%;
-            right: 20%;
-            position: absolute;
-            text-align: center;
-            background-image: url(/img/logo/logo_inicio.png);
-            background-size: 90%;
-            background-position: center center;
-            background-repeat: no-repeat;
 
             @include mobile{
                 width: 50vh;
@@ -89,6 +70,8 @@
             }
         }
     }
+
+   
 
        
         
